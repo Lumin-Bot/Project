@@ -1,10 +1,11 @@
 .header {
-  background-color: #000000;
+  background-color: black;
   display: flex;
+  justify-content: center;
   align-items: center;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 100;
 }
 .header__logo {
   width: 100px;
@@ -28,6 +29,7 @@
   background-color: #cd904d;
 }
 .header__nav {
+  background-color: black;
   display: flex;
   justify-content: space-evenly;
 }
@@ -36,12 +38,21 @@
   text-decoration: none;
 }
 .header__option {
+  color: white;
   display: flex;
   flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
 }
+.header__optionLineOne {
+  font-size: 10px;
+}
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
 .header__optionBasket {
+  color: white;
   display: flex;
   align-items: center;
 }
